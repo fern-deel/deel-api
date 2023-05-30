@@ -33,7 +33,7 @@ tags:
   externalDocs:
     description: See
     url: https://developer.deel.com/rest/v1/#contracts
-- name: Hris
+- name: HRIS
   description: API end-points related to HRIS data.
   externalDocs:
     description: See
@@ -101,7 +101,7 @@ paths:
       operationId: createDirectEmployee
       summary: Create a new Hris direct employee
       tags:
-      - Hris
+      - HRIS
       requestBody:
         "$ref": "#/components/requestBodies/RequestBodyToCreateHrisDirectEmployee"
       responses:
