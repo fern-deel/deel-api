@@ -1,24 +1,19 @@
-# {Company} API
+# Deel API
 
 Tagging a release on this repository will update the:
 
-- [Node.js SDK repo](https://github.com/fern-{company}/{company}-node)
-- [OpenAPI spec repo](https://github.com/fern-{company}/{company}-openapi)
-- [Postman collection repo](https://github.com/fern-{company}/{company}-postman)
+- [Node.js SDK repo](https://github.com/fern-deel/deel-node)
+- [API Reference Documentation](https://deel.docs.buildwithfern.com)
 - _More SDKs to come..._
 
 ## What is in this repository?
 
 This repository contains
 
-- {Company}'s Fern API Definition which lives in the [definition](./fern/api/definition/) folder
+- Deel's OpenAPI spec which lives in the [openapi](./fern/api/openapi/) folder
 - Generators (see [generators.yml](./fern/api/generators.yml))
 
-## What is in the API Definition?
-
-The API Definition contains information about what endpoints, types, and errors are used in the API. The definition is broken into smaller files such as [{TODO}.yml](fern/api/definition/{TODO}.yml) and [{TODO}.yml](fern/api/definition/{TODO}.yml).
-
-To make sure that the definition is valid, you can use the Fern CLI.
+To validate the OpenAPI is valid, you can use the Fern CLI.
 
 ```bash
 npm install -g fern-api # Installs CLI
