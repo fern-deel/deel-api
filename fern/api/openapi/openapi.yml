@@ -13,8 +13,10 @@ externalDocs:
 servers:
 - url: https://api.letsdeel.com/rest/v1
   description: Production server
+  x-fern-server-name: Production
 - url: https://api-staging.letsdeel.com/rest/v1
   description: Demo server
+  x-fern-server-name: Demo
 tags:
 - name: EOR
   description: Employee of Record (EOR).
