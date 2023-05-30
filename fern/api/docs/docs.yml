@@ -1,0 +1,6 @@
+navigation:
+  - api: API Reference
+    audiences:
+      - external
+colors:
+  accentPrimary: "24442D"

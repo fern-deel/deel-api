@@ -1,5 +1,9 @@
 groups:
   publish:
+    audiences: 
+      - external
+    docs: 
+      domain: deel
     generators:
       - name: fernapi/fern-typescript-node-sdk
         version: 0.6.4
