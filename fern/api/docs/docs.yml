@@ -3,4 +3,5 @@ navigation:
     audiences:
       - external
 colors:
-  accentPrimary: "#254491"
+  accentPrimary: "#06b6d4"
+logo: ./logo.png
