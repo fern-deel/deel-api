@@ -13,3 +13,5 @@ groups:
           token: ${NPM_TOKEN}
         github:
           repository: fern-deel/deel-node
+        config: 
+          namespaceExport: Deel
